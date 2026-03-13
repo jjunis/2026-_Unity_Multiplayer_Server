@@ -13,7 +13,7 @@ public class FusionBootstrap : MonoBehaviour, INetworkRunnerCallbacks
     private NetworkRunner runner;
 
     public void StartHost() => _ = StartGame(GameMode.Host);
-    public void StartClinet() => _ = StartGame(GameMode.Client);
+    public void StartClient() => _ = StartGame(GameMode.Client);
 
     private async Task StartGame(GameMode mode)
     {

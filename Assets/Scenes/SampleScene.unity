@@ -923,7 +923,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1520749815}
         m_TargetAssemblyTypeName: FusionBootstrap, Assembly-CSharp
-        m_MethodName: StartClinet
+        m_MethodName: StartClient
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
